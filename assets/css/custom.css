@@ -423,6 +423,7 @@ a {
 .fitur-header {
     color: #fff;
     margin-bottom: 2em;
+    background: #dcdc61;
 }
 
 .fa-li {
@@ -431,4 +432,8 @@ a {
 
 .btn-block {
   color: #fff;
+}
+
+p {
+  color: #000;
 }
