@@ -426,10 +426,6 @@ a {
     background: #dcdc61;
 }
 
-.fa-li {
-    color: #fff;
-}
-
 .btn-block {
   color: #fff;
 }
@@ -437,3 +433,7 @@ a {
 p {
   color: #000;
 }
+.fa-li {
+    color: #000;
+}
+
