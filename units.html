@@ -33,8 +33,7 @@
   <body>
     <div class="navbar-wrapper">
       <div class="container">
-
-        <nav class="navbar navbar-inverse navbar-static-top">
+        <nav class="navbar navbar-static-top">
           <div class="container">
             <div class="navbar-header">
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -49,21 +48,11 @@
               <div class="masthead borderXwidth">
                 <nav>
                   <ul class="nav nav-justified">
-                    <li class="active"><a href="index.html">Home</a></li>
-                    <li role="presentation" class="dropdown">
-                      <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded="false">
-                        Units <span class="caret"></span>
-                      </a>
-                      <ul class="dropdown-menu" role="menu">
-                        <li><a href="suites.html">Suites</a></li>
-                        <li><a href="balcony.html">Balcony</a></li>
-                        <li><a href="townhouse.html">Townhouse</a></li>
-                        <li><a href="penthouse.html">Penthouse</a></li>
-                      </ul>
-                    </li>
-                    <li><a href="facilities.html">Gallery</a></li>
-                    <li><a href="brochures.html">Concept</a></li>
-                    <li><a href="aboutus.html">Portfolio</a></li>
+                    <li class="active"><a href="home.html">Home</a></li>
+                    <li><a href="concept.html">Concept</a></li>
+                    <li><a href="units.html">Units</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="brochures.html">E-brochure</a></li>
                     <li><a href="contactus.html">Contact Us</a></li>
                   </ul>
                 </nav>
@@ -71,75 +60,90 @@
             </div>
           </div>
         </nav>
-
       </div>
     </div>
 
 
-     <hr class="featurette-divider">
+    <hr class="featurette-divider">
 
     <div class="container marketing">
-
-      <div class="row featurette top-beam">
-        <div class="col-md-5">
-          <h2 class="fitur-header">First featurette heading</h2>
-          <p>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+      <!-- start row -->
+      <div class="row featurette">
+        <div class="col-md-3 units">
+          <h2>Units</h2>
+          <hr class="featurette-divider">
+          <p><a class="btn btn-primary button-hover btn-block" data-text="Penthouse" href="penthouse.html" role="button">Penthouse</a></p>
+          <p><a class="btn btn-primary button-hover btn-block" data-text="Townhouse" href="townhouse.html" role="button">Townhouse</a></p>
+          <p><a class="btn btn-primary button-hover btn-block" data-text="Balcony" href="balcony.html" role="button">Balcony</a></p>
+          <p><a class="btn btn-primary button-hover btn-block" data-text="Suites" href="suites.html" role="button">Suites</a></p>  
         </div>
+
         <div class="col-md-7">
-          <img src="assets/img/page_accommodation-fallback4-420x420.jpg" alt="">
-        </div>
-      </div>
-      <hr class="featurette-divider">
-      <div class="row">
-        <div class="col-md-6">
-          <h2>Room Details</h2>
-          <ul class="fa-ul">
-            <li><i class="fa-li fa fa-check-square"></i>Double Bed</li>
-            <li><i class="fa-li fa fa-check-square"></i>60 square meter</li>
-            <li><i class="fa-li fa fa-check-square"></i>Doublr Bed</li>
-            <li><i class="fa-li fa fa-check-square"></i>Private Balcony</li>
-            <li><i class="fa-li fa fa-check-square"></i>Free Internet</li>
-            <li><i class="fa-li fa fa-check-square"></i>Beach View</li>
-            <li><i class="fa-li fa fa-check-square"></i>Free Internet</li>
-            <li><i class="fa-li fa fa-check-square"></i>Flat Screen Tv</li>
-            <li><i class="fa-li fa fa-check-square"></i>Free Newspaper</li>
-            <li><i class="fa-li fa fa-check-square"></i>2 Persons</li>
-            <li><i class="fa-li fa fa-check-square"></i>Breakfast included</li>
-            <li><i class="fa-li fa fa-check-square"></i>Jacuzzi</li>
-          </ul>
-        </div>
-        <div class="col-md-6">
           <h2>Overview</h2>
-          <div role="tabpanel">
-
-            <!-- Nav tabs -->
-            <ul class="nav nav-tabs overfacilities" role="tablist">
-              <li role="presentation" class="active"><a href="#overview" aria-controls="overview" role="tab" data-toggle="tab">Overview</a></li>
-              <li role="presentation"><a href="#facilities" aria-controls="facilities" role="tab" data-toggle="tab">Facilites</a></li>
-              <li role="presentation"><a href="#extra" aria-controls="extra" role="tab" data-toggle="tab">Extra</a></li>
-            </ul>
-
-            <!-- Tab panes -->
-            <div class="tab-content">
-              <div role="tabpanel" class="tab-pane active" id="overview">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur aliquid placeat, eum voluptates quas adipisci minima provident officia quos maxime. Similique ipsa labore, laborum reprehenderit explicabo totam dolorum amet officia.</p>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, qui.</p>
+          <hr class="featurette-divider">
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+          </ol>
+            <div class="carousel-inner" role="listbox">
+              <div class="item active">
+                <img class="first-slide" src="assets/img/slider1.jpg" alt="First slide">
+                <div class="container">
+                  <div class="carousel-caption">
+                    <h1>
+                      Oasis of thousand delights
+                    </h1>
+                  </div>
+                </div>
               </div>
-              <div role="tabpanel" class="tab-pane" id="facilities">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque aperiam ipsa est ipsum quos expedita rem dolores beatae ipsam pariatur odit optio perferendis animi culpa inventore sit, nam eius nostrum.</p>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, rerum!</p>
+              <div class="item">
+                <img class="second-slide" src="assets/img/slider2.jpg" alt="Second slide">
+                <div class="container">
+                  <div class="carousel-caption">
+                    <h1>
+                      Sycamore Suites is more than just your ordinary aparment
+                    </h1>
+                  </div>
+                </div>
               </div>
-              <div role="tabpanel" class="tab-pane" id="extra">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi esse, earum quisquam quia impedit hic, ut excepturi, possimus natus eaque a itaque et rerum distinctio officia, dignissimos perspiciatis tenetur tempore?</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, alias!</p>
+              <div class="item">
+                <img class="third-slide" src="assets/img/slider3.jpg" alt="Third slide">
+                <div class="container">
+                  <div class="carousel-caption">
+                    <h1>A Contemporary Living Space</h1>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <img class="third-slide" src="assets/img/slider4.jpg" alt="Third slide">
+                <div class="container">
+                  <div class="carousel-caption">
+                    <h1>Enter a life of peaceful tranquilty</h1>
+                  </div>
+                </div>
               </div>
             </div>
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div><!-- /.carousel -->
+        </div>
 
-          </div>
+        <div class="col-md-2">
+          <img src="img/3updwr.jpg" alt="" class="img-responsive side-img">
         </div>
       </div>
+        
+      
 
       <hr class="featurette-divider">
 
