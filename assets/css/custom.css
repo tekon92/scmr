@@ -1739,7 +1739,7 @@ h3 {
 }
 
 body {
-  background: url("../../assets/img/pattern/woods.jpg");
+  background: url("../../assets/img/bg-new.jpg");
 }
 
 .container {
@@ -1750,6 +1750,9 @@ body {
 }
   .btn-primary:hover {
     background: peru;
+  }
+  a:hover {
+    color: black;
   }
 ul.fa-ul {
     -moz-column-count: 1;
@@ -1780,4 +1783,8 @@ hr.featurette-divider {
 }
 body > .container {
   padding-top: 60px;
+}
+
+small {
+  vertical-align: top;
 }
