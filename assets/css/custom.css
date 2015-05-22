@@ -1770,3 +1770,8 @@ hr.featurette-divider {
   background: url("../../assets/img/left-img.jpg") !important;
   height: 4em !important;
 }
+.button, [class*="button-"] {
+    
+    padding: 6em 8em;
+    
+}
