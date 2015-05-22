@@ -1768,10 +1768,16 @@ hr.featurette-divider {
 
 .left-image {
   background: url("../../assets/img/left-img.jpg") !important;
-  height: 4em !important;
+}
+.center-image {
+  background: url("../../assets/img/center-img.jpg") !important;
+}
+.right-image {
+  background: url("../../assets/img/right-img.jpg") !important;
 }
 .button, [class*="button-"] {
-    
-    padding: 6em 8em;
-    
+  padding: 4em 8em;
+}
+body > .container {
+  padding-top: 60px;
 }
