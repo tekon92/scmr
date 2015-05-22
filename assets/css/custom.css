@@ -42,7 +42,7 @@ linear-gradient(right, rgba(238,196,135,.3) 0%,rgba(243,207,154,.3) 3%,rgba(248,
 }
 
 .left-image {
-	/*background: url("../../assets/img/index_left.jpg");*/
+	background: url("../../assets/img/left-img.jpg");
   background: peru !important;
 }
 
@@ -1739,7 +1739,7 @@ h3 {
 }
 
 body {
-  background: url("../../assets/img/pattern/Amapa.jpg");
+  background: url("../../assets/img/pattern/woods.jpg");
 }
 
 .container {
@@ -1758,4 +1758,15 @@ ul.fa-ul {
     -webkit-column-gap: 20px;
     column-count: 1;
     column-gap: 20px;
+}
+.right-line {
+  border-right: 1px solid peru;
+}
+hr.featurette-divider {
+  border-top: 1px solid transparent;
+}
+
+.left-image {
+  background: url("../../assets/img/left-img.jpg") !important;
+  height: 4em !important;
 }
