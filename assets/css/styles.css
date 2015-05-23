@@ -107,7 +107,7 @@ div.borderXwidth a:before, div.borderXwidth a:after
     width: 0%;
     height: 2px;
     content: '';
-    background: #FFF;
+    background: peru;
     transition: all 0.3s;
 }
 

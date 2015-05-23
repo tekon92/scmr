@@ -1719,7 +1719,7 @@ xpush
   color: peru;
 }
 a:hover {
-  color: peru !important;
+  color: peru ;
 }
 
 .overfacilities {
@@ -1752,7 +1752,7 @@ body {
     background: peru;
   }
   a:hover {
-    color: black;
+    color: black !important;
   }
 ul.fa-ul {
     -moz-column-count: 1;
@@ -1787,4 +1787,39 @@ body > .container {
 
 small {
   vertical-align: top;
+}
+
+h2 {
+  letter-spacing: .2em;
+  color: peru;
+  border-bottom: 1px solid peru;
+  padding-bottom: 1em;
+  text-align: left;
+}
+
+h3 {
+  text-align: center;
+  text-transform: uppercase;
+  background-color: peru;
+  color: #fff;
+}
+
+h4 {
+  margin-bottom: 2em;
+  font-weight: bold;
+  text-align: left;
+}
+
+.bottom-line {
+  border-bottom: 1px solid peru;
+}
+
+.align-center {
+  text-align: center;
+}
+.left-line {
+  border-left: 1px solid peru;
+}
+p {
+  text-align: justify;
 }
